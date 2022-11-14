@@ -15,6 +15,7 @@ const Card = props => {
     expiry,
     limit,
     spent,
+
     availableToSpend,
   } = details
 
