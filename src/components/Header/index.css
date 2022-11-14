@@ -1,0 +1,116 @@
+.header {
+  padding: 15px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.heading-main-heading-div {
+  display: flex;
+  align-items: center;
+}
+.learnmore-heading {
+  font-family: roboto;
+  font-size: 12px;
+  padding: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: rgba(0, 110, 255, 0.767);
+  margin-left: 15px;
+
+  display: flex;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.61);
+  border-radius: 3px;
+}
+.video-icon {
+  width: 18px;
+  height: 15px;
+  margin-top: 1px;
+  margin-right: 3px;
+}
+
+.header-heading-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-heading {
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.v-c-add-btn {
+  padding: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  font-family: roboto;
+  color: rgb(32, 32, 32);
+  font-weight: 500;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.v-c-add-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-v-c-add-icon {
+  color: rgb(32, 32, 32);
+  padding-right: 6px;
+  width: 18px;
+}
+
+.header-div-2 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(156, 154, 154);
+}
+
+.header-options {
+  display: flex;
+  padding: 0px;
+}
+
+.header-options-heading {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 25px;
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  transition: border-bottom 0.15s;
+}
+.header-options-heading:hover {
+  border-bottom: 3px solid rgb(255, 0, 64);
+}
+
+.header-grid-icon {
+  color: gray;
+  width: 20px;
+  margin-left: 10px;
+  transition: box-shadow 0.1s;
+}
+
+.header-grid-icon:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.t {
+  border-bottom: 3px solid rgb(255, 0, 64);
+  color: black;
+  font-weight: 500;
+}
+
+.width-clr {
+  color: rgb(255, 0, 64);
+}
