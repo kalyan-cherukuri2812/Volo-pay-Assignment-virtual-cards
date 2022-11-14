@@ -47,7 +47,7 @@ export default class Your extends Component {
     const {limit} = this.state
 
     if (
-      window.scrollY + window.innerHeight >=
+      window.scrollY + 10 + window.innerHeight >=
         document.documentElement.scrollHeight &&
       limit <= 90
     ) {

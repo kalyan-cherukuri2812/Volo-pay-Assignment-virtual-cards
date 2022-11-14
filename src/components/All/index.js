@@ -50,7 +50,7 @@ export default class All extends Component {
     console.log(document.documentElement.scrollHeight)
 
     if (
-      window.scrollY + 1 + window.innerHeight >=
+      window.scrollY + 10 + window.innerHeight >=
         document.documentElement.scrollHeight &&
       limit <= 90
     ) {
